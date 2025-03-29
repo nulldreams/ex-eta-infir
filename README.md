@@ -11,7 +11,7 @@
 
 ## 📜 About the Project
 
-**Exeta Infir** is a tool for extracting and generating spritesheets of Tibia characters directly from the official sprite assets ⚔️
+**Exeta Infir** is a tool for extracting and generating spritesheets of Tibia characters directly from the official assets ⚔️
 
 You can use this project to generate spritesheets from characters exported via [`Assets-Editor`](https://github.com/Arch-Mina/Assets-Editor), organizing all animation directions and phases into one image – ready for game engines like **Godot**, **Unity**, or even your own engine.
 
@@ -35,16 +35,17 @@ You can use this project to generate spritesheets from characters exported via [
 3. Organize your `spritesheets/` folder with all `.bmp` files extracted from the Tibia client.  
    The files must follow the naming format:
 
-
 - The first **20 files** contain **144 sprites each**, sized **32x32**.
 - The rest contain sprites sized **64x64**.
 - The sprites are extracted from the Tibia `.dat` files using external tools.
 
 4. Each character includes **two animation states**:
+
    - `idle`
    - `moving`
 
    And **four directions**:
+
    - `up`, `right`, `down`, `left`
 
    The output spritesheet organizes these directions **horizontally**, and each animation **vertically**.
@@ -54,6 +55,7 @@ You can use this project to generate spritesheets from characters exported via [
 ## 🧪 Included examples
 
 This repository contains:
+
 - Sample `spritesheets/` with `.bmp` files
 - A working `assets-editor-data.json` file with two characters (for testing)
 
@@ -67,3 +69,4 @@ Once everything is ready, simply cast the rune:
 
 ```bash
 python main.py
+```
