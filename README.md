@@ -4,7 +4,7 @@
 
 <h1 align="center">🧙‍♂️ Exeta Infir</h1>
 <p align="center">
-  <em>A sprite extractor tool for Tibia characters, infused with pixel magic and nerdy runes.</em>
+  <em>A sprite extractor tool for Tibia characters.</em>
 </p>
 
 ---
